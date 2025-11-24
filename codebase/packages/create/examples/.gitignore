@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+*/public/*
+!public/.gitkeep
+output
+.DS_store
+.next
+update-versions.ts

@@ -1,0 +1,22 @@
+{
+  "name": "revideo-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "revideo editor --projectFile ./src/project.tsx",
+    "render": "tsc && node dist/render.js"
+  },
+  "dependencies": {
+    "@revideo/2d": "0.10.4",
+    "@revideo/core": "0.10.4",
+    "@revideo/renderer": "0.10.4",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@revideo/cli": "0.10.4",
+    "@revideo/ui": "0.10.4",
+    "@types/three": "^0.169.0",
+    "typescript": "5.5.4",
+    "vite": "^4.5"
+  }
+}
